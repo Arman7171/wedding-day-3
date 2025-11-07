@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["ES2017", "DOM"],
+    "target": "ES6",
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/components/*": ["./src/components/*"]
+    }
+  }
+}
