@@ -47,8 +47,8 @@ export default function Calendar() {
         :root {
           --bg: transparent;
           --ink: #1f2937;
-          --muted: #d1b27b;
-          --card: #d1b27b;
+          --muted: #fff;
+          --card: #fff;
           --ring: #ffffffff;
           --shadow: 0 2px 8px rgba(0,0,0,.06);
         }
