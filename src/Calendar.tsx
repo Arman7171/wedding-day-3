@@ -60,19 +60,19 @@ export default function Calendar() {
         .cal-title span { font-style: normal; color: var(--muted); font-weight: 400; margin-left: 8px; font-size: .75em; }
 
         .grid-7 { display:grid; grid-template-columns: repeat(7, 1fr); gap:21px; }
-        .grid-8 { display:grid; grid-template-columns: repeat(7, 1fr); gap:24px; }
+        .grid-8 { display:grid; grid-template-columns: repeat(7, 1fr); gap:18px; }
         .dow { text-align:center; color: var(--muted); font-weight: 600; font-size: 18px; }
 
         .day {
           position: relative; aspect-ratio: 1 / 1; border-radius: 16px; display:flex; align-items:center; justify-content:center;
-          font-size: 12px; background: var(--card); box-shadow: var(--shadow); color: var(--ink);
+          font-size: 17px; background: var(--card); box-shadow: var(--shadow); color: var(--ink);
           user-select: none;
           padding-top: 3px;
         }
         .day--pad { opacity: 0; }
         .day--active { font-weight: 700; box-shadow: var(--shadow); }
         .day--active:after {
-          content: ""; position:absolute; inset:-10px; border:6px solid var(--ring); border-radius: 28px;
+          content: ""; position:absolute; inset:-8px; border:4px solid var(--ring); border-radius: 28px;
         }
 
         @media (min-width: 768px) {

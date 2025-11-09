@@ -179,9 +179,11 @@ function App() {
                 <img src="17.png" className="bride" />
               </div>
               <section>
-                <div className="description">Հարսի Տուն</div>
+                <div className="description" style={{ fontSize: "30px" }}>
+                  Հարսի Տուն
+                </div>
                 <div className="description">13:30</div>
-                <div className="description">
+                <div className="description" style={{ fontSize: "25px" }}>
                   Գ. Չաուշի թաղ. , 14-րդ նրբ., տուն 7
                 </div>
                 <div className="content-center">
@@ -201,9 +203,11 @@ function App() {
               </div>
 
               <section style={{ color: "#fff" }}>
-                <div className="description">Պսակադրություն</div>
+                <div className="description" style={{ fontSize: "30px" }}>
+                  Պսակադրություն
+                </div>
                 <div className="description">15:40</div>
-                <div className="description">
+                <div className="description" style={{ fontSize: "25px" }}>
                   Հովհաննավանք <br />
                   Օհանավան Գյուղ
                 </div>
@@ -224,13 +228,15 @@ function App() {
             </div>
             <div className="mb-50" data-aos="fade-right">
               <div className="icon content-center" data-aos="fade-down">
-                <img src="18.png" className="church" />
+                <img src="18.png" className="glasses" />
               </div>
 
               <section>
-                <div className="description">Հարսանեկան Խնջույք</div>
+                <div className="description" style={{ fontSize: "30px" }}>
+                  Հարսանեկան Խնջույք
+                </div>
                 <div className="description">17:30</div>
-                <div className="description">
+                <div className="description" style={{ fontSize: "25px" }}>
                   Ashtarak Hall <br />
                   ք. Աշտարակ Սուրբ Սարգիս 71
                 </div>
@@ -258,6 +264,25 @@ function App() {
                 </div>
               </div>
             </footer>
+            <div
+              className="content-center"
+              style={{
+                marginTop: "50px",
+                marginBottom: "40px",
+                fontSize: "14px !important",
+              }}>
+              <div>
+                <div
+                  className="title"
+                  style={{
+                    fontSize: "23px",
+                  }}>
+                  Սերը համբերող է, բարի է. սերը չի նախանձում, չի գոռոզանում, չի
+                  ամբարտավանանում։ <br /> Չի փնտրում իրենը, չի բարկանում, չարիքը
+                  չի հիշում։
+                </div>
+              </div>
+            </div>
           </>
         )}
 
